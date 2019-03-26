@@ -1,0 +1,124 @@
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 0px;
+}
+#main {
+	width: 770px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main #header {
+	background: url(../images/panel_01.gif) repeat-y;
+	height: 130px;
+	width: 770px;
+}
+
+#main #wrapper {
+	background: url(../images/panel_04.gif) repeat-y;
+	height: 600px;
+	width: 770px;
+}
+#main #menukiri {
+	float: left;
+	width: 195px;
+	height:31px;
+	background-image:url(../images/panel_02.gif);
+	margin-top:5px;
+}
+#main #menukanan {
+	float: left;
+	width: 530px;
+	padding-right: 20px;
+	padding-left: 15px;
+}
+#main #clearer {
+	clear: both;
+}
+#main #footer {
+	background: url(../images/panel_06.gif);
+	text-align: center;
+	height: 20px;
+	width: 770px;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+h2 {
+	font: normal 140% Georgia;
+	color: #248E0E;
+	background-color: transparent;
+	border-bottom: 1px dotted #265180;
+}
+#menu {
+	margin-top: 29px;
+	width: 185px;
+	left: 19px;
+	top: 130px;
+	padding-left: 10px;
+}
+
+#menu ul {
+	list-style: none;
+	border: none;
+	margin-top: 120px;
+}
+#menu li {
+	width: 150px;
+	border-bottom: 1px solid #969BA5;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #9ecb3d;
+	background-color: #bcbcbc;
+	color: #5A7C12;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #9ECB3D;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+	color: #5A7C12;
+	text-decoration: none;
+}
+a:hover {
+	color: #F8FF00;
+	text-decoration: none;
+}
+#tables {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+#tables th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #248E0E;
+	border-collapse: collapse;
+	background-color: #17E949;
+}
+#tables td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}

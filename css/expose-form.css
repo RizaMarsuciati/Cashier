@@ -1,0 +1,50 @@
+/* styling of an exposed element */
+#mask {
+	background:#678 url(images/mask_gradient_1000.png) no-repeat;
+	background-position:-260px -79px;
+}
+
+form.expose {
+	padding: 20px;
+	margin: 20px 0;
+	text-align: center;
+	width: 350px;
+	-moz-border-radius: 4px;
+	border-bottom: 3px solid #26DB51;
+	border-top: 3px solid #26DB51;
+	border-right: 1px solid #26DB51;
+	border-left: 1px solid #26DB51;
+}
+
+label, input {
+	display: block;
+	width: 150px;
+	float: left;
+	height:23px;
+	margin-bottom: 10px;
+}
+
+label {
+	text-align: right;
+	width: 75px;
+	padding-right: 20px;
+}
+
+br {
+	clear: left;
+}
+
+tr {
+	border-bottom: 1px solid #969BA5;
+}
+
+/* end styling expose */
+
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
